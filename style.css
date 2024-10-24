@@ -1,0 +1,73 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#login-form{
+   background-color:rgb(124, 93, 152);
+   height: 45vh;
+   width:60vw;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   gap:30px;
+   background: #921a24;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+#email{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    box-shadow:
+  5.1px 4.5px 3.6px rgba(0, 0, 0, 0.164),
+  14px 12.5px 10px rgba(0, 0, 0, 0.235),
+  33.8px 30.1px 24.1px rgba(0, 0, 0, 0.306),
+  112px 100px 80px rgba(0, 0, 0, 0.47)
+;
+border-bottom: 2px solid transparent;
+}
+
+#password{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    box-shadow:
+  5.1px 4.5px 3.6px rgba(0, 0, 0, 0.164),
+  14px 12.5px 10px rgba(0, 0, 0, 0.235),
+  33.8px 30.1px 24.1px rgba(0, 0, 0, 0.306),
+  112px 100px 80px rgba(0, 0, 0, 0.47)
+;
+border-bottom: 2px solid transparent;
+}
+
+#login{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow:
+    5.1px 4.5px 3.6px rgba(0, 0, 0, 0.164),
+    14px 12.5px 10px rgba(0, 0, 0, 0.235),
+    33.8px 30.1px 24.1px rgba(31, 1, 1, 0.306),
+    112px 100px 80px rgba(0, 0, 0, 0.47)
+  ;
+  background: #69131a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border:none;
+ border-bottom: 2px solid transparent; 
+}
