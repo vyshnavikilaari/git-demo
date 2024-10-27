@@ -5,7 +5,7 @@ const App = () => {
         appname:"hello"
     }
     const logodata="vyshnavi"
-    const test="hello world"
+    const test="Hello World:)"
   return (
     <>
    <p className="text-pink-500">{test}</p>
