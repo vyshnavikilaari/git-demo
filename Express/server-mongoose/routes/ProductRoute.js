@@ -77,3 +77,4 @@ module.exports = router
 // 201 -> CREATED
 // 400 -> BAD Request
 // 401 -> UnAuthorized
+// 409 -> Conflict
