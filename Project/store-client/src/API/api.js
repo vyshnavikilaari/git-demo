@@ -2,10 +2,22 @@
 import axios from 'axios'
 
 
-const API = 'https://671b70ef2c842d92c37fec0c.mockapi.io/prodcutsapp/products'
+const API = 'http://localhost:3000'
+
+// ProductEndPonts
+const getProducts = () => axios.get(`${API}/products/all`)
 
 
-const getProducts = () => axios.get(API)
 
 
-export { getProducts }
+// OrderEndPonts
+const getOrders = () => axios.get(`${API}/orders/all`)
+
+
+//UserEndPoints
+const getUsers = () => axios.get(`${API}/users/all`)
+
+//AuthEndponts
+const Login = (data) => axios.post(`${API}/auth/login`, data)
+
+export { getProducts, getOrders, getUsers, Login }

@@ -29,5 +29,3 @@ const UsersSchema = new mongoose.Schema({
 const Users = mongoose.model("Users", UsersSchema)
 
 module.exports = Users
-
-
