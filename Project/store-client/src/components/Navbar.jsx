@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { Cross, User, X } from 'lucide-react'
 import { useRef, useState } from "react"
-import { Login, Register } from "../api/api"
+import { Login, Register } from "../API/api"
 const Navbar = () => {
     //false (Login hidden) -> true (login visible) Conditional render the login screen 
     const [showLogin, setShowLogin] = useState(false)

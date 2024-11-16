@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard'
-import { getProducts } from '../api/api'
+import { getProducts } from '../API/api'
 import { Loader, Loader2, TriangleAlert } from 'lucide-react'
 
 const Products = () => {
